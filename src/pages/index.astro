@@ -1,19 +1,8 @@
-<html lang="jp">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<meta name="viewport" content="width=device-width" />
-		<meta name="generator" content={Astro.generator} />
-		<title>All DAY Nippon</title>
-	</head>
-	<body>
-		<header>
-			<h1>All DAY Nippon</h1>
-			<nav>
-				<li><a href="/">HOME</a></li>
-				<li><a href="/about">ABOUT</a></li>
-				<li><a href="/blog">All Posts</a></li>
-			</nav>
-		</header>
-	</body>
-</html>
+---
+import Layout from "../layouts/Layout.astro";
+const { pageTitle } = Astro.props;
+---
+
+<Layout pageTitle={pageTitle}>
+	<p>All DAY Nipponは関西人が人生のこれからを記録していく個人メディアです</p>
+</Layout>
