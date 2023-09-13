@@ -1,15 +1,15 @@
 ---
 layout: ../../layouts/PostLayout.astro
-title: '超ミニマル主義を読んで、持ち物の軽量化を実践してみた'
+title: '漢字検定2級にリベンジしてきた'
 lang: 'ja-JP'
-pubDate: 2023-09-06
-description: '超ミニマル主義を読んで、持ち物の軽量化を実践してみた'
+pubDate: 2023-10-22
+description: '漢字検定2級にリベンジしてきた'
 author: '駒沢'
 image:
     url: 'https://docs.astro.build/assets/full-logo-light.png'
     alt: 'Astroのロゴ。'
-category: 雑記
-tags: ["astro", "ブログ", "公開学習"]
+category: 語学・資格
+tags: ["漢字検定"]
 ---
 # Astroでブログをはじめました
 
