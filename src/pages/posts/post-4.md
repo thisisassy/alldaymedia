@@ -1,6 +1,7 @@
 ---
 layout: ../../layouts/PostLayout.astro
 title: '岩手平泉・花巻旅行：1泊2日の旅'
+draft: true
 lang: 'ja-JP'
 pubDate: 2023-09-11
 description: '岩手平泉・花巻旅行：1泊2日の旅'

@@ -1,6 +1,7 @@
 ---
 layout: ../../layouts/PostLayout.astro
 title: '超ミニマル主義を読んで、持ち物の軽量化を実践してみた'
+draft: true
 lang: 'ja-JP'
 pubDate: 2023-09-06
 description: '超ミニマル主義を読んで、持ち物の軽量化を実践してみた'

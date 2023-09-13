@@ -1,8 +1,9 @@
 ---
 import Layout from "../layouts/Layout.astro";
 import styles from "../styles/blog.module.scss";
+const pageTitle = "All Posts";
 const allPosts = await Astro.glob("../pages/posts/*.md");
-const { pageTitle } = Astro.props;
+const nonDraftPosts = allPosts.filter((post) => !post.frontmatter.draft);
 ---
 
 <Layout pageTitle={pageTitle}>
@@ -12,7 +13,7 @@ const { pageTitle } = Astro.props;
     </h1>
     <div class={styles.postList}>
       {
-        allPosts.map((post) => (
+        nonDraftPosts.map((post) => (
           <article class={styles.post}>
             <a href={post.url}>
               <figure>

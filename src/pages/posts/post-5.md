@@ -1,6 +1,7 @@
 ---
 layout: ../../layouts/PostLayout.astro
 title: '漢字検定2級にリベンジしてきた'
+draft: true
 lang: 'ja-JP'
 pubDate: 2023-10-22
 description: '漢字検定2級にリベンジしてきた'

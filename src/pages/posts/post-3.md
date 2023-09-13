@@ -1,6 +1,7 @@
 ---
 layout: ../../layouts/PostLayout.astro
 title: '名古屋ウィメンズマラソン2024に向けて'
+draft: true
 lang: 'ja-JP'
 pubDate: 2023-09-09
 description: '名古屋ウィメンズマラソン2024に向けて'

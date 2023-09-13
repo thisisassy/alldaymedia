@@ -1,6 +1,7 @@
 ---
 layout: ../../layouts/PostLayout.astro
 title: 'ジム行ってる'
+draft: true
 lang: 'ja-JP'
 pubDate: 2023-09-07
 description: 'KONAMIスポーツジムに週1で行っている話'

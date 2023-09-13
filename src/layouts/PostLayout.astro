@@ -21,7 +21,7 @@ const { frontmatter } = Astro.props;
           </p>
         </div>
         <div class={styles.author}>
-          <img src="" alt="著者：駒沢" />
+          <img src="" alt={frontmatter.author} />
           <p>Text by <a href="/about">{frontmatter.author}</a></p>
         </div>
       </div>
@@ -29,8 +29,14 @@ const { frontmatter } = Astro.props;
         <slot />
       </div>
       <div class={styles.postFooter}>
-        <ul>
-          <li><a href="/"># 買ってよかったもの</a></li>
+        <ul class={styles.tags}>
+          {
+            frontmatter.tags.map((tag) => (
+              <li class={styles.tag}>
+                <a href={`/tags/${tag}`}>{tag}</a>
+              </li>
+            ))
+          }
         </ul>
       </div>
       <div class={styles.breadcrumb}>
